@@ -9,7 +9,7 @@ using namespace std;  // for 'cin' and 'cout'.  ['std::cin' / 'std:cout']
 
 // Class Constructor Definition.  Written like: 'ClassName::ClassName ( Arguments )'
 // v: value
-GenericClass::GenericClass ( int v ) // constructor with parameters
+GenericClass::GenericClass ( int v )    // constructor with parameters
   { SetValue ( v ); }
 
 // Class Destructor Definition.  Take special note of the '~' = Destucto!
@@ -24,9 +24,9 @@ void GenericClass::SetValue ( int v )
 
 // 'Get Method' Definitions.  Remember these are not Functions
 // v: value
-int GenericClass::GetValue (  ) //get month
+int GenericClass::GetValue (  )       //get value
 	{
-  int v = 0;      // If the user inputs a non integer then the 'v' value defaults to (int) 0.
+  int v = 0;                          // If the user inputs a non integer then the 'v' value defaults to (int) 0.
 
   // Request input from the user.
   cout << "Letter Grade Calculator: " << endl;
@@ -39,7 +39,7 @@ int GenericClass::GetValue (  ) //get month
 // 'View Method' Definitions.
 // Evaluats GenericClass.GenericValue (Public Member)
 // For now this function outputs the exersise results.
-void GenericClass::SeeValue (  ) //display date in mm/yyyy format
+void GenericClass::SeeValue (  )
 	{
   cout << "\nThe Student Grade is: " << GenericValue << "%" << endl;
 

@@ -7,20 +7,20 @@ class GenericClass
   {
 	public:
     // Initialize Constructor with default values if not provided.
-    GenericClass ( int = 0 );  // This method shares the same class name, always.
+    GenericClass ( int = 0 );    // This method shares the same class name, always.
 
     // Member Method Declarations for (~)Destructor.  Shares the same ''~ClassName', always.
-    ~GenericClass (  );    // Returns no value and accepts no arguments, always.
+    ~GenericClass (  );          // Returns no value and accepts no arguments, always.
 
     // Member Method Declarations.
     // Set Method Declarations.
-    void SetValue ( int );   //set grade
+    void SetValue ( int );      // set value
 
     // Get Method Declarations.
-    int GetValue (  );       //get month
+    int GetValue (  );          // get value
 
     // Show Method Declarations.
-	  void SeeValue (  );   //display date in mm/dd/yyyy format
+	  void SeeValue (  );         // set value
 
     // Error Trapping method
     int ErrorTrap ( int );

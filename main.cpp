@@ -27,7 +27,7 @@ int main (  );
 // Function Definition.
 int main (  )                                                                   // 'main' always returs a value to the System.  'int main ( args )'
   {
-  GenericProgram (  );                                                       // Starting my main program.
+  GenericProgram (  );                                                          // Starting my main program.
 
 	return ( 0 );                                                                 // Successfull termination of program.
   }
